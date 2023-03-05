@@ -553,7 +553,7 @@ padding: 0;
     font-size: var(--font-size-large);
 }
 #usluge .nijenaslov h3{
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-mid);
 }
 nav #options{
     display: block;
