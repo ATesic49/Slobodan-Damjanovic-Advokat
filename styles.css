@@ -549,6 +549,12 @@ padding: 0;
     }
 }
 @media only screen and (max-width: 600px) {
+.naslov h1{
+    font-size: var(--font-size-large);
+}
+#usluge .nijenaslov h3{
+    font-size: var(--font-size-mid);
+}
 nav #options{
     display: block;
 }
