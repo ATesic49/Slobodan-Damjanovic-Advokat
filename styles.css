@@ -95,7 +95,7 @@ nav #options:hover{
     filter: brightness(0) drop-shadow(0 0 10px white);
 }
 nav .navZaTel ul li a{
-font-size: 8px;
+font-size: 7px !important;
 padding: 4px 10px; 
 margin-right: -100%;
 
