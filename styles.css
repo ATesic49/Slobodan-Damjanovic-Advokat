@@ -12,6 +12,17 @@ body{
     --font-size-large:18px;
     --font-size-xlarge:25px;
 }
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+      
 /* NAVIGATION */
 nav{
     z-index: 4;
@@ -19,15 +30,16 @@ nav{
     top: 0;
     transition: .2s;
     background-image: linear-gradient(to right,#603d05,#603d05,#603d05,#8b5908,#8b5908);
-    height:12vh;
-    height:12svh;
+    height:15vh;
+    height:15svh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2.5% 0 5%;
+    padding: 10px 2.5% 10px  5%;
     width: 100%;
-    max-height: 75px;
+    max-height: 100px;
+    box-sizing: border-box;
 }
 .backgroundImageNone{
    background-image: none;

@@ -99,13 +99,13 @@ console.log(document.querySelector('#pocetna img').src)
 addEventListener("resize", () => {
     if(window.innerWidth<=350){
         document.querySelector('#pocetna .swiper').style.aspectRatio= 753/580;
-        document.querySelector('#pocetna img').src='/img/justicijaMala.jpg'
+        document.querySelector('#pocetna img').src='./img/justicijaMala.jpg'
     }else if(window.innerWidth<=600){
-        document.querySelector('#pocetna img').src='/img/justicijaCopy.jpg'
+        document.querySelector('#pocetna img').src='./img/justicijaCopy.jpg'
         document.querySelector('#pocetna .swiper').style.aspectRatio=  750/500;
         
     }else{
-        document.querySelector('#pocetna img').src="/img/justicija.jpg"
+        document.querySelector('#pocetna img').src="./img/justicija.jpg"
         document.querySelector('#pocetna .swiper').style.aspectRatio=  709/374;
 
     }
@@ -113,13 +113,13 @@ addEventListener("resize", () => {
 addEventListener("DOMContentLoaded", () => {
     if(window.innerWidth<=350){
         document.querySelector('#pocetna .swiper').style.aspectRatio= 753/580;
-        document.querySelector('#pocetna img').src='/img/justicijaMala.jpg'
+        document.querySelector('#pocetna img').src='./img/justicijaMala.jpg'
     }else if(window.innerWidth<=600){
-        document.querySelector('#pocetna img').src='/img/justicijaCopy.jpg'
+        document.querySelector('#pocetna img').src='./img/justicijaCopy.jpg'
         document.querySelector('#pocetna .swiper').style.aspectRatio=  750/500;
         
     }else{
-        document.querySelector('#pocetna img').src="/img/justicija.jpg"
+        document.querySelector('#pocetna img').src="./img/justicija.jpg"
         document.querySelector('#pocetna .swiper').style.aspectRatio=  709/374;
 
     }
